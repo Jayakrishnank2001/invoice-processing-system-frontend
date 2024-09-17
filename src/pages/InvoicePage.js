@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import PDFViewer from '../components/PDFViewer';
-import InvoiceForm from '../components/InvoiceForm';
-import FooterAction from '../components/FooterAction';
+import InvoiceDetails from '../components/InvoiceDetails';
+// import axios from 'axios';
+// import FooterAction from '../components/FooterAction';
 import '../styles/InvoicePage.css';
 
 class InvoicePage extends Component {
@@ -24,7 +25,7 @@ class InvoicePage extends Component {
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-12 mt-2">
+                    <div className="col-12 mt-1">
                         <div className="border-top border-1" style={{ borderColor: '#ccc' }}></div>
                     </div>
                 </div>
@@ -38,7 +39,7 @@ class InvoicePage extends Component {
 
                         <div className="col-md-6 col-12">
                             <div className="invoice-form">
-                                <InvoiceForm />
+                                <InvoiceDetails />
                             </div>
                         </div>
                     </div>
