@@ -1,0 +1,79 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ececec;
+    padding: 10px 20px;
+    font-size: 14px;
+    flex-wrap: nowrap;
+    gap: 15px;
+  }
+  
+  .footer-items {
+    display: flex;
+    gap: 10px;
+    flex-grow: 1;
+    flex-wrap: nowrap;
+  }
+  
+  .footer-item {
+    display: flex;
+    align-items: center;
+    background-color: #E8F5E9; 
+    border: 1px solid #ccc;
+    box-shadow: #E1BEE7;
+    padding: 5px 10px;
+    border-radius: 4px;
+    white-space: nowrap;
+  }
+  
+  .footer-label {
+    font-weight: bold;
+    margin-right: 5px;
+  }
+  
+  .footer-value {
+    font-weight: normal;
+  }
+  
+  .footer-buttons {
+    display: flex;
+    gap: 10px; 
+  }
+  
+  .reject-button,
+  .select-action-button {
+    background-color: #FFCDD2; 
+    color: #b71c1c;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .approve-button {
+    background-color: #E1BEE7; 
+    color: #6A1B9A; 
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 768px) {
+    .footer {
+      flex-wrap: wrap; 
+    }
+  
+    .footer-items {
+      flex-wrap: wrap;
+      gap: 10px;
+      flex-grow: unset;
+    }
+  
+    .footer-buttons {
+      width: 100%;
+      justify-content: flex-end;
+    }
+  }
+  

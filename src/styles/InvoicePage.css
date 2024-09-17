@@ -1,0 +1,38 @@
+.invoice-page-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .content-container {
+    margin: 0;
+    display: flex;
+    flex-grow: 1;
+    overflow: hidden;
+  }
+  
+  .pdf-section {
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  .form-section {
+    height: 100%;
+    overflow-y: auto;
+    background-color: #f9f9f9;
+    padding: 15px;
+    scrollbar-width: none;
+  }
+  
+  .footer-section {
+    margin: 0px;
+    background-color: #ececec;
+    border-top: 1px solid #ddd;
+  }
+  
